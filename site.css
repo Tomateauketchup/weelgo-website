@@ -1,0 +1,89 @@
+body {
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	margin: 0px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+	margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+a {
+	color: black; /* texte noir */
+	text-decoration: none; /* pas de soulignement */
+}
+
+/* Quand la souris passe dessus */
+a:hover {
+	text-decoration: underline; /* souligné au survol */
+}
+
+.header_table {
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.header_table_td {
+	border: 1px solid black;
+	border-top-width: 0px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main_title {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.page_banner {
+	margin: auto;
+	padding: 20px;
+	border: 1px solid black;
+	text-align: center;
+	max-width: 500px;
+	border: 1px solid black;
+}
+
+.page_part {
+	margin: auto;
+	margin-bottom: 50px;
+	max-width: 500px;
+}
+
+.page_part_title {
+	font-size: 1.1em;
+	font-style: italic;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.btn {
+	display: inline-block; /* pour appliquer padding et taille */
+	padding: 0.5rem 1rem; /* espace à l’intérieur */
+	border: 1px solid #000; /* bord noir */
+	background-color: black; /* fond blanc */
+	color: white; /* texte noir */
+	text-decoration: none; /* pas de soulignement */
+	text-align: center;
+	transition: all 0.3s ease; /* animation douce au hover */
+	cursor: pointer;
+}
+
+.btn:hover {
+	text-decoration: none;
+	background-color: white; /* fond noir */
+	color: black; /* texte blanc */
+}
+
+.h_bar {
+	width: 200px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
